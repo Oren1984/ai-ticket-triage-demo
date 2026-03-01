@@ -1,0 +1,5012 @@
+[
+  {
+    "ticket_text": "NFS mount on queue-rabbitmq stale. Applications hanging on I/O.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Pipeline for mail-service blocked by failing deploy gate.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "MFA reset needed for agarcia. Authenticator app lost after phone change.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Read timeout on prod-api-02. Queries exceeding 16ms threshold.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Network latency spike detected on vault-server. Ping shows 55ms average.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Password policy update locked out 41 users from data-pipeline.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Tablespace on monitoring-01 at 77% capacity. Approaching storage limit.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Release prod-api-02 rollback needed. New version causing out of memory.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Helm chart deployment to prod-k8s timed out after 56 minutes.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Unable to reach worker-03 from remote-site. Connection times out after 82 seconds.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Index bloat on analytics-db table. Query performance degraded by 68x.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Server backup-server kernel panic. System unresponsive.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Connection pool exhausted on monitoring-01. Max connections (46) reached.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Deployment manifest for vault-server has invalid integration configuration.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Role binding for gateway-lb namespace too restrictive. agarcia cannot list pods.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Database backup for prod-api-02 failed. Disk space insufficient.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Alert rule for cache-redis-01 needs tuning. False positive rate at 19%.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "lpatel cannot push to analytics-db branch. Protected branch rules blocking.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "mchen needs temporary admin access to cdn-edge-01 for maintenance window.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Deployment manifest for data-pipeline has invalid build configuration.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "VM vault-server performance degraded due to noisy neighbor. CPU steal at 32%.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Intermittent connectivity drops on ap-southeast-1 segment. Affecting 13 users.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Log aggregator not receiving logs from monitoring-01 for 11 minutes.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "MTU mismatch causing fragmentation between datacenter-a and prod-api-02.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Traceroute to worker-03 shows blackhole at hop 60.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "DNS resolution failing for vault-server. nslookup returns SERVFAIL.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "New hire dmartin needs read access to the gateway-lb namespace.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Database migration on ci-runner-05 failed at step 32. Needs manual rollback.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Blue-green deployment switch for logging-stack failed. DNS not updating.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Dead man's switch alert: worker-03 has not reported in for 82 minutes.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Tablespace on queue-rabbitmq at 99% capacity. Approaching storage limit.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Database failover on payment-api took 74 seconds. Exceeded RTO target.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "CI/CD pipeline failed at test step. Error: dependency conflict.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "WiFi access point in building-3 is not broadcasting SSID. Clients cannot connect.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Slow query on search-cluster taking 74 seconds. Blocking other transactions.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Grafana dashboard for analytics-db showing data gaps for last 87 hours.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Database failover on vault-server took 51 seconds. Exceeded RTO target.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Uptime monitor reports monitoring-01 as down from 42 locations.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Autovacuum not running on gateway-lb. Table bloat at 62GB.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "PostgreSQL replica lag on analytics-db is 77 seconds and growing.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Hardware RAID on data-pipeline degraded. 74 disk(s) failed.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "NTP sync lost on vault-server. Clock drift affecting authentication.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Index bloat on prod-api-02 table. Query performance degraded by 56x.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "CI/CD pipeline failed at security-scan step. Error: dependency conflict.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Deployment manifest for ci-runner-05 has invalid security-scan configuration.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Cloud storage bucket staging-db-01 returning 15 errors on upload.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Cron job on worker-03 has not executed in 31 hours. Scheduler may be stuck.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Disk usage alert on cache-redis-01. Volume at 19% capacity.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Health check for worker-03 failing. Endpoint returning 95 status.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Unable to reach worker-03 from us-east-1. Connection times out after 32 seconds.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "SSH key for dmartin rejected on ci-runner-05. Key might have been rotated.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "User slee cannot access the monitoring-01 repository. Getting 403 Forbidden.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Network interface on backup-server flapping every 55 minutes.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "BGP peering session with upstream provider is flapping on router prod-k8s.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "NTP sync lost on prod-k8s. Clock drift affecting authentication.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Secrets injection for payment-api failed. Vault connection timed out.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Firewall is blocking traffic from us-east-1 to staging-db-01 on port 5432.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Expired client certificate preventing mchen from connecting to vault-server.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Network interface on auth-service flapping every 90 minutes.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Prometheus alert firing for high CPU on cache-redis-01. Currently at 90%.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Post-deployment smoke tests for cache-redis-01 failing on 27 endpoints.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Proxy server worker-03 is not forwarding requests. HTTP 89 errors returned.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "NFS mount on ci-runner-05 stale. Applications hanging on I/O.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Proxy server analytics-db is not forwarding requests. HTTP 84 errors returned.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Service account for worker-03 expired. Deployments are failing.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Docker build for gateway-lb failing. checksum mismatch.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Post-deployment smoke tests for data-pipeline failing on 4 endpoints.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Release payment-api rollback needed. New version causing checksum mismatch.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Prometheus alert firing for high CPU on queue-rabbitmq. Currently at 90%.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Hardware RAID on vault-server degraded. 4 disk(s) failed.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Connection pool exhausted on search-cluster. Max connections (3) reached.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Cron job on data-pipeline has not executed in 30 hours. Scheduler may be stuck.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Grafana dashboard for analytics-db showing data gaps for last 84 hours.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Spot instance payment-api terminated. Application needs failover.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "PostgreSQL replica lag on payment-api is 21 seconds and growing.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Image pull failed for data-pipeline. Registry returning 13 error.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "ARP table overflow on router. Hosts in office-network losing connectivity intermittently.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Image pull failed for prod-api-02. Registry returning 28 error.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "SSL certificate on payment-api expires in 74 days. Needs renewal.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Uptime monitor reports backup-server as down from 94 locations.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Container registry vault-server running low on storage. 69GB remaining.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "NTP sync lost on logging-stack. Clock drift affecting authentication.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Health check for cdn-edge-01 failing. Endpoint returning 10 status.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Service account for prod-web-01 expired. Deployments are failing.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Hardware RAID on data-pipeline degraded. 71 disk(s) failed.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Memory usage on prod-api-02 steadily climbing. Currently at 7%.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Read timeout on data-pipeline. Queries exceeding 55ms threshold.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Log aggregator not receiving logs from monitoring-01 for 98 minutes.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Alert rule for mail-service needs tuning. False positive rate at 22%.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Expired client certificate preventing lpatel from connecting to cdn-edge-01.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Disk IOPS on analytics-db throttled. Hitting provisioned limit of 80 IOPS.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "CI/CD pipeline failed at test step. Error: permission denied.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Network interface on prod-web-01 flapping every 87 minutes.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Synthetic monitoring probe to vault-server timing out from vpn-gateway region.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "MySQL on gateway-lb hit max_allowed_packet limit. Large insert failing.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Intermittent connectivity drops on office-network segment. Affecting 59 users.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Read timeout on queue-rabbitmq. Queries exceeding 40ms threshold.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "rjohnson locked out of staging-db-01 after 28 failed login attempts.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Database migration on queue-rabbitmq failed at step 63. Needs manual rollback.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Tablespace on vault-server at 24% capacity. Approaching storage limit.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Terraform state for analytics-db corrupted. Cannot plan or apply changes.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Unable to reach search-cluster from datacenter-a. Connection times out after 73 seconds.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Terraform apply failed for prod-api-02. State lock held by previous run.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Index bloat on monitoring-01 table. Query performance degraded by 74x.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "API token for backup-server integration expired 2 days ago.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Replication to payment-api standby broken. WAL files accumulating.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Canary deployment of backup-server showing elevated error rate of 80%.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Intermittent connectivity drops on staging-env segment. Affecting 90 users.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Permission denied when nwilson tries to write to mail-service S3 bucket.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "VLAN 66 misconfigured on switch. Hosts in eu-west-2 cannot reach cache-redis-01.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Elasticsearch cluster cache-redis-01 yellow. 15 unassigned shards.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Traceroute to payment-api shows blackhole at hop 9.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Error rate for cdn-edge-01 exceeded 39% threshold. Alert triggered.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Spot instance gateway-lb terminated. Application needs failover.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "DNS resolution failing for prod-api-02. nslookup returns SERVFAIL.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "AWS EC2 instance prod-api-02 stuck in stopping state for 17 minutes.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "MongoDB payment-api shard imbalanced. Chunk migration lagging.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Switch in rack 35 is unresponsive. Multiple hosts in staging-env affected.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Connection string for vault-server has wrong credentials after rotation.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Alert fatigue: 55 non-critical alerts from payment-api in the last hour.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "APM traces showing 23ms latency spike in monitoring-01 service.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "NTP sync lost on cdn-edge-01. Clock drift affecting authentication.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Role binding for prod-k8s namespace too restrictive. tbrown cannot list pods.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Proxy server vault-server is not forwarding requests. HTTP 55 errors returned.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Container registry data-pipeline running low on storage. 22GB remaining.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Image pull failed for worker-03. Registry returning 99 error.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Auto-scaling policy for analytics-db not triggering despite 65% CPU.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "User slee cannot access the staging-db-01 repository. Getting 403 Forbidden.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Firewall is blocking traffic from datacenter-a to vault-server on port 80.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Read timeout on logging-stack. Queries exceeding 79ms threshold.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Cross-account IAM role for ci-runner-05 returning AssumeRole error.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "MFA reset needed for dmartin. Authenticator app lost after phone change.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "BGP peering session with upstream provider is flapping on router gateway-lb.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Secrets injection for monitoring-01 failed. Vault connection timed out.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Password policy update locked out 81 users from cache-redis-01.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Terraform apply failed for gateway-lb. State lock held by previous run.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Unable to reach auth-service from vpn-gateway. Connection times out after 10 seconds.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Deployment manifest for search-cluster has invalid build configuration.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Expired client certificate preventing nwilson from connecting to gateway-lb.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Disk usage alert on staging-db-01. Volume at 26% capacity.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Cloud storage bucket vault-server returning 30 errors on upload.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Alert rule for queue-rabbitmq needs tuning. False positive rate at 8%.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "AWS EC2 instance cdn-edge-01 stuck in stopping state for 54 minutes.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "SAML SSO login loop for backup-server. Assertion validation failing.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Traceroute to cache-redis-01 shows blackhole at hop 50.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Uptime monitor reports prod-web-01 as down from 83 locations.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Memory usage on queue-rabbitmq steadily climbing. Currently at 41%.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "EBS volume on prod-web-01 detached unexpectedly. Data may be inconsistent.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Slow query on vault-server taking 81 seconds. Blocking other transactions.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Elasticsearch cluster mail-service yellow. 14 unassigned shards.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Packet loss of 55% observed between dev-lab and payment-api.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "EBS volume on prod-k8s detached unexpectedly. Data may be inconsistent.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Pipeline for prod-web-01 blocked by failing deploy gate.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Deployment manifest for prod-api-02 has invalid test configuration.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Network latency spike detected on search-cluster. Ping shows 18ms average.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "SAML SSO login loop for ci-runner-05. Assertion validation failing.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "CI/CD pipeline failed at security-scan step. Error: invalid configuration.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Connection pool exhausted on cdn-edge-01. Max connections (57) reached.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Database migration on payment-api failed at step 53. Needs manual rollback.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Network interface on data-pipeline flapping every 73 minutes.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Traceroute to prod-k8s shows blackhole at hop 57.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Disk IOPS on prod-k8s throttled. Hitting provisioned limit of 56 IOPS.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Blue-green deployment switch for auth-service failed. DNS not updating.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Deployment of cdn-edge-01 failed health check. Readiness probe returning 33.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "LDAP group logging-stack is missing mchen. Cannot access shared drives.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Server prod-api-02 kernel panic. System unresponsive.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Network interface on mail-service flapping every 33 minutes.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "User mchen cannot access the prod-api-02 repository. Getting 403 Forbidden.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "BGP peering session with upstream provider is flapping on router gateway-lb.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Connection pool exhausted on payment-api. Max connections (59) reached.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "SSH key for nwilson rejected on cdn-edge-01. Key might have been rotated.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Migration script for analytics-db failed on step 38. Database in inconsistent state.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "User agarcia cannot access the worker-03 repository. Getting 403 Forbidden.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Traceroute to worker-03 shows blackhole at hop 88.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "SSH key for kwilliams rejected on data-pipeline. Key might have been rotated.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Autovacuum not running on monitoring-01. Table bloat at 72GB.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Alert fatigue: 78 non-critical alerts from prod-k8s in the last hour.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Proxy server worker-03 is not forwarding requests. HTTP 5 errors returned.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Migration script for logging-stack failed on step 9. Database in inconsistent state.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Terraform state for prod-web-01 corrupted. Cannot plan or apply changes.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "API token for staging-db-01 integration expired 55 days ago.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Anomaly detected in mail-service request pattern. Traffic spike of 92x normal.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "New hire kwilliams needs read access to the staging-db-01 namespace.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "MySQL on backup-server hit max_allowed_packet limit. Large insert failing.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "NFS mount on ci-runner-05 stale. Applications hanging on I/O.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Traceroute to auth-service shows blackhole at hop 19.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Database failover on queue-rabbitmq took 99 seconds. Exceeded RTO target.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Load balancer target group for worker-03 has 52 unhealthy targets.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Database migration on analytics-db failed at step 65. Needs manual rollback.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Container registry cdn-edge-01 running low on storage. 70GB remaining.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Synthetic monitoring probe to queue-rabbitmq timing out from remote-site region.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "DNS resolution failing for vault-server. nslookup returns SERVFAIL.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Rolling update for ci-runner-05 stuck. 26 pods in CrashLoopBackOff.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Auto-scaling policy for analytics-db not triggering despite 97% CPU.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "BGP peering session with upstream provider is flapping on router prod-api-02.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "MFA reset needed for lpatel. Authenticator app lost after phone change.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "PostgreSQL replica lag on auth-service is 37 seconds and growing.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Cron job on payment-api has not executed in 30 hours. Scheduler may be stuck.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Kubernetes node mail-service in NotReady state for 50 minutes.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Cron job on payment-api has not executed in 72 hours. Scheduler may be stuck.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Deadlock detected on mail-service. 60 transactions waiting.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Traceroute to cache-redis-01 shows blackhole at hop 23.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Release data-pipeline rollback needed. New version causing connection refused.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Server prod-api-02 kernel panic. System unresponsive.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Index bloat on payment-api table. Query performance degraded by 16x.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "EBS volume on data-pipeline detached unexpectedly. Data may be inconsistent.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Connection pool exhausted on data-pipeline. Max connections (30) reached.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Terraform state for staging-db-01 corrupted. Cannot plan or apply changes.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Error rate for cdn-edge-01 exceeded 27% threshold. Alert triggered.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Query planner on cdn-edge-01 choosing sequential scan over index. 24x slower.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Permission denied when rjohnson tries to write to monitoring-01 S3 bucket.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "slee needs temporary admin access to ci-runner-05 for maintenance window.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Tablespace on prod-k8s at 3% capacity. Approaching storage limit.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "SLO burn rate for prod-web-01 exceeding budget. 80% error budget remaining.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "PagerDuty incident triggered: cdn-edge-01 latency above 22ms threshold.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Prometheus alert firing for high CPU on search-cluster. Currently at 81%.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Grafana dashboard for vault-server showing data gaps for last 27 hours.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Terraform apply failed for cdn-edge-01. State lock held by previous run.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "VLAN 75 misconfigured on switch. Hosts in vpn-gateway cannot reach backup-server.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Password policy update locked out 19 users from gateway-lb.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "MFA reset needed for nwilson. Authenticator app lost after phone change.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Migration script for analytics-db failed on step 13. Database in inconsistent state.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Service account for monitoring-01 expired. Deployments are failing.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Config map update for prod-web-01 not propagating. Pods still using old config.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Rolling update for staging-db-01 stuck. 81 pods in CrashLoopBackOff.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "OAuth token refresh failing for cdn-edge-01. Users getting logged out.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "dmartin locked out of gateway-lb after 41 failed login attempts.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Database backup for prod-k8s failed. Disk space insufficient.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "VPN tunnel to datacenter-a dropped. Users cannot access internal resources.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Spot instance prod-k8s terminated. Application needs failover.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Service account for gateway-lb expired. Deployments are failing.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Query planner on worker-03 choosing sequential scan over index. 4x slower.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Helm chart deployment to staging-db-01 timed out after 9 minutes.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Autovacuum not running on mail-service. Table bloat at 7GB.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "AWS EC2 instance analytics-db stuck in stopping state for 92 minutes.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "MFA reset needed for dmartin. Authenticator app lost after phone change.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Deadlock detected on data-pipeline. 74 transactions waiting.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Elasticsearch cluster cdn-edge-01 yellow. 69 unassigned shards.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Config map update for analytics-db not propagating. Pods still using old config.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Packet loss of 14% observed between datacenter-a and gateway-lb.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Metric collection agent on ci-runner-05 crashed. No data since 86 minutes ago.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "AWS EC2 instance worker-03 stuck in stopping state for 84 minutes.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "jsmith locked out of auth-service after 23 failed login attempts.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Server analytics-db kernel panic. System unresponsive.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Grafana dashboard for backup-server showing data gaps for last 4 hours.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "ARP table overflow on router. Hosts in office-network losing connectivity intermittently.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Cron job on prod-web-01 has not executed in 85 hours. Scheduler may be stuck.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "APM traces showing 73ms latency spike in cache-redis-01 service.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Load balancer target group for data-pipeline has 5 unhealthy targets.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "MTU mismatch causing fragmentation between dev-lab and queue-rabbitmq.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "PagerDuty incident triggered: search-cluster latency above 36ms threshold.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Error rate for ci-runner-05 exceeded 79% threshold. Alert triggered.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Connection string for analytics-db has wrong credentials after rotation.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Metric collection agent on staging-db-01 crashed. No data since 88 minutes ago.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Role binding for prod-k8s namespace too restrictive. nwilson cannot list pods.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Alertmanager silences expired. Getting 46 duplicate alerts for auth-service.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "MTU mismatch causing fragmentation between datacenter-a and mail-service.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "mchen needs temporary admin access to staging-db-01 for maintenance window.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Permission denied when agarcia tries to write to prod-api-02 S3 bucket.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Build artifact for worker-03 not found in registry. Push may have failed.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "MySQL on cdn-edge-01 hit max_allowed_packet limit. Large insert failing.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Deadlock detected on search-cluster. 64 transactions waiting.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Switch in rack 38 is unresponsive. Multiple hosts in eu-west-2 affected.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Canary deployment of prod-api-02 showing elevated error rate of 50%.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Expired client certificate preventing dmartin from connecting to staging-db-01.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Replication to staging-db-01 standby broken. WAL files accumulating.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "WiFi access point in vpn-gateway is not broadcasting SSID. Clients cannot connect.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Error rate for data-pipeline exceeded 63% threshold. Alert triggered.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Migration script for cache-redis-01 failed on step 81. Database in inconsistent state.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Switch in rack 41 is unresponsive. Multiple hosts in remote-site affected.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "PostgreSQL replica lag on data-pipeline is 87 seconds and growing.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Cloud storage bucket payment-api returning 4 errors on upload.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "CI/CD pipeline failed at security-scan step. Error: permission denied.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Canary deployment of cache-redis-01 showing elevated error rate of 96%.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "AWS EC2 instance gateway-lb stuck in stopping state for 45 minutes.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Cloud storage bucket gateway-lb returning 7 errors on upload.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Role binding for queue-rabbitmq namespace too restrictive. jsmith cannot list pods.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "PostgreSQL replica lag on queue-rabbitmq is 1 seconds and growing.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Helm chart deployment to backup-server timed out after 28 minutes.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Error rate for ci-runner-05 exceeded 96% threshold. Alert triggered.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Build artifact for staging-db-01 not found in registry. Push may have failed.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Tablespace on search-cluster at 98% capacity. Approaching storage limit.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Canary deployment of worker-03 showing elevated error rate of 62%.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "PagerDuty incident triggered: auth-service latency above 53ms threshold.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Auto-scaling policy for mail-service not triggering despite 86% CPU.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Synthetic monitoring probe to auth-service timing out from dev-lab region.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "SAML SSO login loop for monitoring-01. Assertion validation failing.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Packet loss of 88% observed between staging-env and prod-web-01.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Autovacuum not running on ci-runner-05. Table bloat at 14GB.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Database failover on cache-redis-01 took 57 seconds. Exceeded RTO target.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Rolling update for search-cluster stuck. 71 pods in CrashLoopBackOff.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Post-deployment smoke tests for staging-db-01 failing on 40 endpoints.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "dmartin cannot push to vault-server branch. Protected branch rules blocking.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "VPN tunnel to remote-site dropped. Users cannot access internal resources.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Spot instance analytics-db terminated. Application needs failover.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Dead man's switch alert: monitoring-01 has not reported in for 50 minutes.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Deployment manifest for monitoring-01 has invalid build configuration.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Grafana dashboard for prod-api-02 showing data gaps for last 75 hours.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Service mesh proxy on prod-k8s consuming excessive memory: 37GB.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Spot instance cache-redis-01 terminated. Application needs failover.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Cloud storage bucket worker-03 returning 49 errors on upload.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "PagerDuty incident triggered: queue-rabbitmq latency above 24ms threshold.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Read timeout on gateway-lb. Queries exceeding 4ms threshold.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "APM traces showing 64ms latency spike in worker-03 service.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "API token for prod-api-02 integration expired 22 days ago.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Deployment manifest for search-cluster has invalid deploy configuration.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Dead man's switch alert: prod-web-01 has not reported in for 89 minutes.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Query planner on cdn-edge-01 choosing sequential scan over index. 83x slower.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "jsmith locked out of search-cluster after 28 failed login attempts.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Query planner on mail-service choosing sequential scan over index. 74x slower.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Network latency spike detected on data-pipeline. Ping shows 54ms average.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Container registry staging-db-01 running low on storage. 51GB remaining.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Database failover on logging-stack took 12 seconds. Exceeded RTO target.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Memory usage on analytics-db steadily climbing. Currently at 93%.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Redis cluster gateway-lb lost 12 nodes. Cache miss rate spiking.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "MySQL on backup-server hit max_allowed_packet limit. Large insert failing.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Packet loss of 80% observed between us-east-1 and staging-db-01.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Disk usage alert on queue-rabbitmq. Volume at 29% capacity.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Image pull failed for analytics-db. Registry returning 70 error.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Connection string for vault-server has wrong credentials after rotation.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Synthetic monitoring probe to search-cluster timing out from remote-site region.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Metric collection agent on staging-db-01 crashed. No data since 74 minutes ago.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "VM monitoring-01 performance degraded due to noisy neighbor. CPU steal at 38%.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Pipeline for auth-service blocked by failing push gate.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Terraform apply failed for mail-service. State lock held by previous run.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Firewall is blocking traffic from us-east-1 to vault-server on port 443.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Index bloat on prod-api-02 table. Query performance degraded by 57x.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Service account tbrown hitting rate limit on prod-k8s API. Need quota increase.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Disk IOPS on ci-runner-05 throttled. Hitting provisioned limit of 94 IOPS.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "SSL certificate on logging-stack expires in 89 days. Needs renewal.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Build artifact for prod-k8s not found in registry. Push may have failed.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Secrets injection for backup-server failed. Vault connection timed out.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Query planner on mail-service choosing sequential scan over index. 79x slower.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "OAuth token refresh failing for ci-runner-05. Users getting logged out.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "New hire jsmith needs read access to the prod-k8s namespace.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Load balancer mail-service is returning 502 errors for 2% of requests.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "lpatel locked out of prod-api-02 after 90 failed login attempts.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Deployment of prod-k8s failed health check. Readiness probe returning 56.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "CI/CD pipeline failed at integration step. Error: timeout exceeded.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Alert fatigue: 76 non-critical alerts from gateway-lb in the last hour.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Cross-account IAM role for data-pipeline returning AssumeRole error.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "MongoDB cdn-edge-01 shard imbalanced. Chunk migration lagging.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Kubernetes node data-pipeline in NotReady state for 13 minutes.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Alert fatigue: 97 non-critical alerts from cache-redis-01 in the last hour.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "MongoDB monitoring-01 shard imbalanced. Chunk migration lagging.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Secrets injection for mail-service failed. Vault connection timed out.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "API token for gateway-lb integration expired 1 days ago.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Container registry prod-k8s running low on storage. 92GB remaining.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "SLO burn rate for monitoring-01 exceeding budget. 25% error budget remaining.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Synthetic monitoring probe to cdn-edge-01 timing out from office-network region.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Uptime monitor reports prod-web-01 as down from 54 locations.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Intermittent connectivity drops on vpn-gateway segment. Affecting 6 users.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Health check for prod-web-01 failing. Endpoint returning 85 status.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "SLO burn rate for ci-runner-05 exceeding budget. 53% error budget remaining.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Health check for queue-rabbitmq failing. Endpoint returning 71 status.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Alertmanager silences expired. Getting 98 duplicate alerts for monitoring-01.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Auto-scaling policy for analytics-db not triggering despite 6% CPU.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "ARP table overflow on router. Hosts in remote-site losing connectivity intermittently.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "User tbrown cannot access the logging-stack repository. Getting 403 Forbidden.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Pipeline for payment-api blocked by failing test gate.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Disk usage alert on mail-service. Volume at 72% capacity.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Deadlock detected on data-pipeline. 35 transactions waiting.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Container registry ci-runner-05 running low on storage. 8GB remaining.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "PagerDuty incident triggered: monitoring-01 latency above 47ms threshold.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Dead man's switch alert: ci-runner-05 has not reported in for 35 minutes.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Prometheus alert firing for high CPU on search-cluster. Currently at 82%.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Connection string for logging-stack has wrong credentials after rotation.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Cross-account IAM role for staging-db-01 returning AssumeRole error.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Blue-green deployment switch for mail-service failed. DNS not updating.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Network interface on prod-api-02 flapping every 73 minutes.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "PagerDuty incident triggered: prod-k8s latency above 88ms threshold.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Kubernetes node gateway-lb in NotReady state for 97 minutes.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "PagerDuty incident triggered: queue-rabbitmq latency above 21ms threshold.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "ARP table overflow on router. Hosts in ap-southeast-1 losing connectivity intermittently.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Alert fatigue: 52 non-critical alerts from auth-service in the last hour.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "NFS mount on vault-server stale. Applications hanging on I/O.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "SLO burn rate for analytics-db exceeding budget. 85% error budget remaining.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Database failover on gateway-lb took 17 seconds. Exceeded RTO target.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Auto-scaling group for vault-server not launching new instances. Capacity at limit.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Cloud storage bucket gateway-lb returning 63 errors on upload.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Kubernetes node search-cluster in NotReady state for 83 minutes.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Unable to reach queue-rabbitmq from office-network. Connection times out after 66 seconds.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Image pull failed for cdn-edge-01. Registry returning 93 error.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Prometheus alert firing for high CPU on payment-api. Currently at 11%.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Terraform apply failed for data-pipeline. State lock held by previous run.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Elasticsearch cluster logging-stack yellow. 24 unassigned shards.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "User rjohnson cannot access the ci-runner-05 repository. Getting 403 Forbidden.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Switch in rack 32 is unresponsive. Multiple hosts in ap-southeast-1 affected.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "NFS mount on prod-api-02 stale. Applications hanging on I/O.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Proxy server cdn-edge-01 is not forwarding requests. HTTP 59 errors returned.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Disk IOPS on mail-service throttled. Hitting provisioned limit of 73 IOPS.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "VM staging-db-01 performance degraded due to noisy neighbor. CPU steal at 3%.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Deployment of staging-db-01 failed health check. Readiness probe returning 85.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Packet loss of 17% observed between vpn-gateway and cache-redis-01.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Kubernetes node staging-db-01 in NotReady state for 99 minutes.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "API token for auth-service integration expired 39 days ago.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Alert rule for payment-api needs tuning. False positive rate at 26%.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Service mesh proxy on prod-api-02 consuming excessive memory: 5GB.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Alert fatigue: 12 non-critical alerts from payment-api in the last hour.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Image pull failed for payment-api. Registry returning 43 error.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Migration script for ci-runner-05 failed on step 71. Database in inconsistent state.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Deadlock detected on queue-rabbitmq. 29 transactions waiting.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "MTU mismatch causing fragmentation between datacenter-a and staging-db-01.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Metric collection agent on mail-service crashed. No data since 93 minutes ago.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "OAuth token refresh failing for worker-03. Users getting logged out.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Deadlock detected on payment-api. 96 transactions waiting.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Autovacuum not running on analytics-db. Table bloat at 47GB.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Disk usage alert on prod-api-02. Volume at 99% capacity.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "tbrown cannot push to data-pipeline branch. Protected branch rules blocking.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Load balancer queue-rabbitmq is returning 502 errors for 45% of requests.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Log aggregator not receiving logs from analytics-db for 22 minutes.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Auto-scaling group for cdn-edge-01 not launching new instances. Capacity at limit.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "VPN tunnel to office-network dropped. Users cannot access internal resources.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Unable to reach monitoring-01 from remote-site. Connection times out after 36 seconds.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Role binding for ci-runner-05 namespace too restrictive. mchen cannot list pods.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Slow query on prod-k8s taking 90 seconds. Blocking other transactions.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Service account jsmith hitting rate limit on backup-server API. Need quota increase.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Hardware RAID on worker-03 degraded. 76 disk(s) failed.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Post-deployment smoke tests for gateway-lb failing on 88 endpoints.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Pipeline for ci-runner-05 blocked by failing security-scan gate.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Build artifact for auth-service not found in registry. Push may have failed.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Intermittent connectivity drops on datacenter-a segment. Affecting 69 users.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "New hire jsmith needs read access to the auth-service namespace.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Cloud function payment-api cold starts taking 64ms. Exceeding timeout.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Blue-green deployment switch for prod-k8s failed. DNS not updating.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Auto-scaling group for worker-03 not launching new instances. Capacity at limit.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "SSL certificate on backup-server expires in 95 days. Needs renewal.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Unable to reach worker-03 from ap-southeast-1. Connection times out after 83 seconds.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "VPN tunnel to datacenter-a dropped. Users cannot access internal resources.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "lpatel needs temporary admin access to queue-rabbitmq for maintenance window.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Slow query on cdn-edge-01 taking 21 seconds. Blocking other transactions.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Expired client certificate preventing agarcia from connecting to payment-api.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Cloud function logging-stack cold starts taking 38ms. Exceeding timeout.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Spot instance prod-k8s terminated. Application needs failover.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "DNS resolution failing for queue-rabbitmq. nslookup returns SERVFAIL.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "LDAP group analytics-db is missing agarcia. Cannot access shared drives.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Unable to reach backup-server from vpn-gateway. Connection times out after 55 seconds.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "SSH key for slee rejected on gateway-lb. Key might have been rotated.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Build artifact for prod-k8s not found in registry. Push may have failed.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Metric collection agent on prod-k8s crashed. No data since 71 minutes ago.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Replication to prod-k8s standby broken. WAL files accumulating.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Service mesh proxy on queue-rabbitmq consuming excessive memory: 76GB.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "MySQL on analytics-db hit max_allowed_packet limit. Large insert failing.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Autovacuum not running on backup-server. Table bloat at 26GB.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Index bloat on analytics-db table. Query performance degraded by 12x.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Rolling update for prod-api-02 stuck. 37 pods in CrashLoopBackOff.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Read timeout on prod-k8s. Queries exceeding 31ms threshold.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Prometheus alert firing for high CPU on backup-server. Currently at 80%.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Cloud function staging-db-01 cold starts taking 20ms. Exceeding timeout.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "ARP table overflow on router. Hosts in vpn-gateway losing connectivity intermittently.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "MTU mismatch causing fragmentation between staging-env and backup-server.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "OAuth token refresh failing for mail-service. Users getting logged out.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "WiFi access point in ap-southeast-1 is not broadcasting SSID. Clients cannot connect.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "VPN tunnel to remote-site dropped. Users cannot access internal resources.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Grafana dashboard for prod-k8s showing data gaps for last 78 hours.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Auto-scaling policy for ci-runner-05 not triggering despite 95% CPU.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Anomaly detected in backup-server request pattern. Traffic spike of 60x normal.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Redis cluster prod-api-02 lost 31 nodes. Cache miss rate spiking.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "SSL certificate on cache-redis-01 expires in 16 days. Needs renewal.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Kubernetes node ci-runner-05 in NotReady state for 77 minutes.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Role binding for backup-server namespace too restrictive. dmartin cannot list pods.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Slow query on prod-api-02 taking 20 seconds. Blocking other transactions.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Release cache-redis-01 rollback needed. New version causing dependency conflict.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "SAML SSO login loop for data-pipeline. Assertion validation failing.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "LDAP group prod-api-02 is missing tbrown. Cannot access shared drives.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Load balancer target group for auth-service has 75 unhealthy targets.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Spot instance ci-runner-05 terminated. Application needs failover.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Auto-scaling policy for staging-db-01 not triggering despite 26% CPU.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Load balancer search-cluster is returning 502 errors for 85% of requests.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Database backup for queue-rabbitmq failed. Disk space insufficient.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "User nwilson cannot access the mail-service repository. Getting 403 Forbidden.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Server worker-03 kernel panic. System unresponsive.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "MTU mismatch causing fragmentation between us-east-1 and prod-api-02.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Alert fatigue: 78 non-critical alerts from queue-rabbitmq in the last hour.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "SSL certificate on cache-redis-01 expires in 2 days. Needs renewal.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Unable to reach payment-api from staging-env. Connection times out after 65 seconds.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "VPN tunnel to ap-southeast-1 dropped. Users cannot access internal resources.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "NFS mount on prod-api-02 stale. Applications hanging on I/O.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Hardware RAID on search-cluster degraded. 80 disk(s) failed.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Packet loss of 97% observed between building-3 and prod-web-01.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Switch in rack 98 is unresponsive. Multiple hosts in ap-southeast-1 affected.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Load balancer target group for cache-redis-01 has 97 unhealthy targets.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Permission denied when tbrown tries to write to mail-service S3 bucket.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Helm chart deployment to prod-k8s timed out after 51 minutes.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "tbrown cannot push to analytics-db branch. Protected branch rules blocking.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Helm chart deployment to auth-service timed out after 34 minutes.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Blue-green deployment switch for mail-service failed. DNS not updating.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Blue-green deployment switch for analytics-db failed. DNS not updating.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Connection string for cache-redis-01 has wrong credentials after rotation.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Disk IOPS on monitoring-01 throttled. Hitting provisioned limit of 31 IOPS.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Database failover on vault-server took 97 seconds. Exceeded RTO target.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Disk usage alert on search-cluster. Volume at 18% capacity.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "SSL certificate on data-pipeline expires in 58 days. Needs renewal.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Migration script for auth-service failed on step 51. Database in inconsistent state.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Memory usage on prod-k8s steadily climbing. Currently at 85%.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Health check for prod-api-02 failing. Endpoint returning 76 status.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Secrets injection for auth-service failed. Vault connection timed out.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Slow query on prod-web-01 taking 80 seconds. Blocking other transactions.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Terraform state for analytics-db corrupted. Cannot plan or apply changes.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "MongoDB gateway-lb shard imbalanced. Chunk migration lagging.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Disk usage alert on cdn-edge-01. Volume at 54% capacity.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Metric collection agent on cache-redis-01 crashed. No data since 91 minutes ago.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Disk IOPS on payment-api throttled. Hitting provisioned limit of 77 IOPS.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Tablespace on cache-redis-01 at 85% capacity. Approaching storage limit.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Service account for data-pipeline expired. Deployments are failing.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "BGP peering session with upstream provider is flapping on router backup-server.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Terraform apply failed for queue-rabbitmq. State lock held by previous run.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Uptime monitor reports prod-api-02 as down from 30 locations.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Unable to reach monitoring-01 from remote-site. Connection times out after 14 seconds.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Database backup for prod-web-01 failed. Disk space insufficient.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Pipeline for prod-k8s blocked by failing lint gate.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Deployment manifest for search-cluster has invalid lint configuration.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Password policy update locked out 62 users from prod-k8s.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Cron job on mail-service has not executed in 79 hours. Scheduler may be stuck.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Packet loss of 20% observed between dev-lab and analytics-db.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "WiFi access point in staging-env is not broadcasting SSID. Clients cannot connect.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Database migration on monitoring-01 failed at step 60. Needs manual rollback.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "MTU mismatch causing fragmentation between building-3 and logging-stack.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Alert rule for analytics-db needs tuning. False positive rate at 10%.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Network latency spike detected on data-pipeline. Ping shows 85ms average.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "NFS mount on logging-stack stale. Applications hanging on I/O.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Cloud function gateway-lb cold starts taking 67ms. Exceeding timeout.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Connection string for analytics-db has wrong credentials after rotation.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Anomaly detected in cdn-edge-01 request pattern. Traffic spike of 41x normal.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Docker build for worker-03 failing. out of memory.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Cloud function mail-service cold starts taking 3ms. Exceeding timeout.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Alert fatigue: 84 non-critical alerts from logging-stack in the last hour.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Alertmanager silences expired. Getting 4 duplicate alerts for payment-api.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Service mesh proxy on queue-rabbitmq consuming excessive memory: 59GB.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Memory usage on backup-server steadily climbing. Currently at 80%.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Service account jsmith hitting rate limit on staging-db-01 API. Need quota increase.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Switch in rack 79 is unresponsive. Multiple hosts in staging-env affected.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "WiFi access point in eu-west-2 is not broadcasting SSID. Clients cannot connect.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Config map update for gateway-lb not propagating. Pods still using old config.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Auto-scaling policy for gateway-lb not triggering despite 19% CPU.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "SSL certificate on cdn-edge-01 expires in 94 days. Needs renewal.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Helm chart deployment to gateway-lb timed out after 54 minutes.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Disk IOPS on analytics-db throttled. Hitting provisioned limit of 5 IOPS.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Database backup for auth-service failed. Disk space insufficient.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Load balancer prod-k8s is returning 502 errors for 6% of requests.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Service mesh proxy on monitoring-01 consuming excessive memory: 55GB.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Image pull failed for ci-runner-05. Registry returning 32 error.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Redis cluster backup-server lost 71 nodes. Cache miss rate spiking.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "EBS volume on payment-api detached unexpectedly. Data may be inconsistent.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Anomaly detected in cache-redis-01 request pattern. Traffic spike of 52x normal.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Dead man's switch alert: cdn-edge-01 has not reported in for 76 minutes.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Switch in rack 90 is unresponsive. Multiple hosts in building-3 affected.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "AWS EC2 instance payment-api stuck in stopping state for 35 minutes.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "DNS resolution failing for monitoring-01. nslookup returns SERVFAIL.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Query planner on worker-03 choosing sequential scan over index. 1x slower.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Server prod-web-01 kernel panic. System unresponsive.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Deployment of data-pipeline failed health check. Readiness probe returning 41.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "nwilson cannot push to data-pipeline branch. Protected branch rules blocking.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Docker build for cdn-edge-01 failing. out of memory.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Service account for staging-db-01 expired. Deployments are failing.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Alertmanager silences expired. Getting 79 duplicate alerts for queue-rabbitmq.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Server search-cluster kernel panic. System unresponsive.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "VLAN 35 misconfigured on switch. Hosts in ap-southeast-1 cannot reach cache-redis-01.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Traceroute to monitoring-01 shows blackhole at hop 89.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Config map update for search-cluster not propagating. Pods still using old config.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Canary deployment of prod-web-01 showing elevated error rate of 38%.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "SAML SSO login loop for logging-stack. Assertion validation failing.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Docker build for cache-redis-01 failing. no space left on device.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Redis cluster ci-runner-05 lost 44 nodes. Cache miss rate spiking.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Alert rule for logging-stack needs tuning. False positive rate at 4%.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Permission denied when mchen tries to write to ci-runner-05 S3 bucket.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "MySQL on analytics-db hit max_allowed_packet limit. Large insert failing.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Load balancer data-pipeline is returning 502 errors for 23% of requests.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Elasticsearch cluster staging-db-01 yellow. 98 unassigned shards.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "SSL certificate on ci-runner-05 expires in 27 days. Needs renewal.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Deployment of ci-runner-05 failed health check. Readiness probe returning 69.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "MFA reset needed for lpatel. Authenticator app lost after phone change.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "rjohnson cannot push to vault-server branch. Protected branch rules blocking.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Expired client certificate preventing tbrown from connecting to queue-rabbitmq.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "MFA reset needed for mchen. Authenticator app lost after phone change.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Deployment manifest for queue-rabbitmq has invalid deploy configuration.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Redis cluster prod-api-02 lost 99 nodes. Cache miss rate spiking.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Rolling update for cache-redis-01 stuck. 89 pods in CrashLoopBackOff.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "AWS EC2 instance queue-rabbitmq stuck in stopping state for 26 minutes.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Service mesh proxy on cdn-edge-01 consuming excessive memory: 52GB.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "SAML SSO login loop for worker-03. Assertion validation failing.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "rjohnson needs temporary admin access to staging-db-01 for maintenance window.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Replication to data-pipeline standby broken. WAL files accumulating.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Prometheus alert firing for high CPU on vault-server. Currently at 6%.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Intermittent connectivity drops on building-3 segment. Affecting 99 users.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "EBS volume on logging-stack detached unexpectedly. Data may be inconsistent.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "PostgreSQL replica lag on monitoring-01 is 31 seconds and growing.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Redis cluster search-cluster lost 74 nodes. Cache miss rate spiking.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Grafana dashboard for backup-server showing data gaps for last 68 hours.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "ARP table overflow on router. Hosts in building-3 losing connectivity intermittently.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Proxy server cdn-edge-01 is not forwarding requests. HTTP 98 errors returned.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Terraform state for auth-service corrupted. Cannot plan or apply changes.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "API token for worker-03 integration expired 41 days ago.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Redis cluster data-pipeline lost 67 nodes. Cache miss rate spiking.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Cron job on cdn-edge-01 has not executed in 26 hours. Scheduler may be stuck.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "BGP peering session with upstream provider is flapping on router auth-service.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Anomaly detected in analytics-db request pattern. Traffic spike of 60x normal.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Secrets injection for logging-stack failed. Vault connection timed out.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Server staging-db-01 kernel panic. System unresponsive.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "ARP table overflow on router. Hosts in staging-env losing connectivity intermittently.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "LDAP group backup-server is missing dmartin. Cannot access shared drives.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "OAuth token refresh failing for logging-stack. Users getting logged out.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Log aggregator not receiving logs from auth-service for 47 minutes.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "PostgreSQL replica lag on vault-server is 53 seconds and growing.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Network latency spike detected on queue-rabbitmq. Ping shows 69ms average.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Cross-account IAM role for backup-server returning AssumeRole error.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Uptime monitor reports monitoring-01 as down from 51 locations.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Load balancer monitoring-01 is returning 502 errors for 92% of requests.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "MongoDB mail-service shard imbalanced. Chunk migration lagging.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "MFA reset needed for nwilson. Authenticator app lost after phone change.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Database backup for auth-service failed. Disk space insufficient.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Cloud function backup-server cold starts taking 94ms. Exceeding timeout.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "VM prod-web-01 performance degraded due to noisy neighbor. CPU steal at 45%.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "New hire dmartin needs read access to the logging-stack namespace.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Connection pool exhausted on worker-03. Max connections (58) reached.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "VM vault-server performance degraded due to noisy neighbor. CPU steal at 37%.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Cloud storage bucket data-pipeline returning 97 errors on upload.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "User dmartin cannot access the prod-api-02 repository. Getting 403 Forbidden.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Cross-account IAM role for auth-service returning AssumeRole error.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Docker build for cdn-edge-01 failing. invalid configuration.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Uptime monitor reports prod-web-01 as down from 69 locations.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "lpatel needs temporary admin access to worker-03 for maintenance window.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Role binding for prod-k8s namespace too restrictive. nwilson cannot list pods.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "VLAN 41 misconfigured on switch. Hosts in staging-env cannot reach search-cluster.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Release cdn-edge-01 rollback needed. New version causing invalid configuration.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Helm chart deployment to auth-service timed out after 53 minutes.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Service account slee hitting rate limit on cache-redis-01 API. Need quota increase.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Read timeout on worker-03. Queries exceeding 12ms threshold.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Dead man's switch alert: vault-server has not reported in for 39 minutes.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Firewall is blocking traffic from ap-southeast-1 to gateway-lb on port 6379.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Database backup for prod-web-01 failed. Disk space insufficient.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Service account mchen hitting rate limit on queue-rabbitmq API. Need quota increase.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "NTP sync lost on backup-server. Clock drift affecting authentication.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Load balancer payment-api is returning 502 errors for 8% of requests.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Proxy server gateway-lb is not forwarding requests. HTTP 73 errors returned.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Uptime monitor reports queue-rabbitmq as down from 6 locations.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Query planner on auth-service choosing sequential scan over index. 20x slower.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Hardware RAID on vault-server degraded. 23 disk(s) failed.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Cloud function analytics-db cold starts taking 92ms. Exceeding timeout.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Deployment of search-cluster failed health check. Readiness probe returning 13.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "VPN tunnel to vpn-gateway dropped. Users cannot access internal resources.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Elasticsearch cluster monitoring-01 yellow. 70 unassigned shards.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Blue-green deployment switch for search-cluster failed. DNS not updating.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "kwilliams locked out of data-pipeline after 51 failed login attempts.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "NTP sync lost on auth-service. Clock drift affecting authentication.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "SSL certificate on queue-rabbitmq expires in 37 days. Needs renewal.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Load balancer target group for mail-service has 64 unhealthy targets.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "CI/CD pipeline failed at lint step. Error: checksum mismatch.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Server logging-stack kernel panic. System unresponsive.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Connection string for prod-k8s has wrong credentials after rotation.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Terraform apply failed for staging-db-01. State lock held by previous run.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Canary deployment of vault-server showing elevated error rate of 53%.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Disk IOPS on vault-server throttled. Hitting provisioned limit of 45 IOPS.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Cloud function ci-runner-05 cold starts taking 55ms. Exceeding timeout.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "mchen needs temporary admin access to backup-server for maintenance window.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Slow query on cdn-edge-01 taking 98 seconds. Blocking other transactions.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Cloud storage bucket search-cluster returning 96 errors on upload.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Connection pool exhausted on cdn-edge-01. Max connections (78) reached.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Terraform apply failed for vault-server. State lock held by previous run.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Deadlock detected on data-pipeline. 7 transactions waiting.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Deployment of backup-server failed health check. Readiness probe returning 53.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "PagerDuty incident triggered: worker-03 latency above 13ms threshold.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "VLAN 7 misconfigured on switch. Hosts in us-east-1 cannot reach cdn-edge-01.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "LDAP group analytics-db is missing slee. Cannot access shared drives.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Network interface on vault-server flapping every 25 minutes.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Elasticsearch cluster monitoring-01 yellow. 95 unassigned shards.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Database failover on monitoring-01 took 89 seconds. Exceeded RTO target.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Replication to gateway-lb standby broken. WAL files accumulating.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Grafana dashboard for monitoring-01 showing data gaps for last 74 hours.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Migration script for gateway-lb failed on step 34. Database in inconsistent state.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "PostgreSQL replica lag on cdn-edge-01 is 78 seconds and growing.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Password policy update locked out 37 users from auth-service.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "VM worker-03 performance degraded due to noisy neighbor. CPU steal at 14%.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Deadlock detected on data-pipeline. 83 transactions waiting.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Service mesh proxy on mail-service consuming excessive memory: 66GB.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "SAML SSO login loop for monitoring-01. Assertion validation failing.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Permission denied when jsmith tries to write to prod-web-01 S3 bucket.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Pipeline for vault-server blocked by failing test gate.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "BGP peering session with upstream provider is flapping on router ci-runner-05.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Config map update for analytics-db not propagating. Pods still using old config.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Release worker-03 rollback needed. New version causing rate limit exceeded.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "agarcia locked out of payment-api after 86 failed login attempts.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Alert rule for prod-k8s needs tuning. False positive rate at 21%.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Network interface on backup-server flapping every 4 minutes.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Elasticsearch cluster monitoring-01 yellow. 53 unassigned shards.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Metric collection agent on auth-service crashed. No data since 78 minutes ago.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "LDAP group logging-stack is missing tbrown. Cannot access shared drives.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Build artifact for prod-k8s not found in registry. Push may have failed.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Alert rule for worker-03 needs tuning. False positive rate at 14%.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Service account for mail-service expired. Deployments are failing.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "SSH key for lpatel rejected on backup-server. Key might have been rotated.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "MongoDB vault-server shard imbalanced. Chunk migration lagging.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Network latency spike detected on queue-rabbitmq. Ping shows 43ms average.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Redis cluster prod-k8s lost 36 nodes. Cache miss rate spiking.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "NTP sync lost on vault-server. Clock drift affecting authentication.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "SLO burn rate for queue-rabbitmq exceeding budget. 75% error budget remaining.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "APM traces showing 29ms latency spike in prod-k8s service.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "VPN tunnel to eu-west-2 dropped. Users cannot access internal resources.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Permission denied when jsmith tries to write to staging-db-01 S3 bucket.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Terraform apply failed for payment-api. State lock held by previous run.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Slow query on prod-web-01 taking 69 seconds. Blocking other transactions.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Docker build for data-pipeline failing. connection refused.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Packet loss of 5% observed between vpn-gateway and prod-api-02.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Redis cluster ci-runner-05 lost 36 nodes. Cache miss rate spiking.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Cross-account IAM role for prod-web-01 returning AssumeRole error.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Elasticsearch cluster gateway-lb yellow. 1 unassigned shards.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Container registry worker-03 running low on storage. 76GB remaining.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Database backup for vault-server failed. Disk space insufficient.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Alert fatigue: 6 non-critical alerts from worker-03 in the last hour.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Terraform state for analytics-db corrupted. Cannot plan or apply changes.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Firewall is blocking traffic from staging-env to queue-rabbitmq on port 80.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Post-deployment smoke tests for backup-server failing on 81 endpoints.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Metric collection agent on worker-03 crashed. No data since 78 minutes ago.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Grafana dashboard for worker-03 showing data gaps for last 19 hours.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Cloud function backup-server cold starts taking 37ms. Exceeding timeout.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Synthetic monitoring probe to logging-stack timing out from remote-site region.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "dmartin locked out of gateway-lb after 93 failed login attempts.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Blue-green deployment switch for analytics-db failed. DNS not updating.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Canary deployment of search-cluster showing elevated error rate of 35%.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "SSH key for jsmith rejected on analytics-db. Key might have been rotated.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Cron job on ci-runner-05 has not executed in 73 hours. Scheduler may be stuck.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Password policy update locked out 45 users from cdn-edge-01.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Network latency spike detected on worker-03. Ping shows 34ms average.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "VPN tunnel to datacenter-a dropped. Users cannot access internal resources.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Service account for data-pipeline expired. Deployments are failing.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Config map update for prod-k8s not propagating. Pods still using old config.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Replication to worker-03 standby broken. WAL files accumulating.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Container registry data-pipeline running low on storage. 82GB remaining.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Health check for prod-k8s failing. Endpoint returning 58 status.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Rolling update for data-pipeline stuck. 43 pods in CrashLoopBackOff.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Terraform state for monitoring-01 corrupted. Cannot plan or apply changes.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "NTP sync lost on data-pipeline. Clock drift affecting authentication.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Memory usage on prod-k8s steadily climbing. Currently at 13%.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Permission denied when mchen tries to write to cache-redis-01 S3 bucket.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Read timeout on ci-runner-05. Queries exceeding 74ms threshold.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Auto-scaling group for prod-web-01 not launching new instances. Capacity at limit.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Spot instance data-pipeline terminated. Application needs failover.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Prometheus alert firing for high CPU on queue-rabbitmq. Currently at 22%.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Alert fatigue: 85 non-critical alerts from prod-k8s in the last hour.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "MySQL on ci-runner-05 hit max_allowed_packet limit. Large insert failing.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Database backup for vault-server failed. Disk space insufficient.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Traceroute to cdn-edge-01 shows blackhole at hop 27.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "SLO burn rate for backup-server exceeding budget. 91% error budget remaining.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "VM auth-service performance degraded due to noisy neighbor. CPU steal at 67%.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Switch in rack 16 is unresponsive. Multiple hosts in vpn-gateway affected.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Database failover on ci-runner-05 took 21 seconds. Exceeded RTO target.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "NTP sync lost on prod-k8s. Clock drift affecting authentication.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Connection pool exhausted on prod-web-01. Max connections (66) reached.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "CI/CD pipeline failed at security-scan step. Error: permission denied.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "DNS resolution failing for analytics-db. nslookup returns SERVFAIL.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "EBS volume on worker-03 detached unexpectedly. Data may be inconsistent.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Auto-scaling group for worker-03 not launching new instances. Capacity at limit.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "EBS volume on monitoring-01 detached unexpectedly. Data may be inconsistent.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Image pull failed for cdn-edge-01. Registry returning 50 error.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Autovacuum not running on ci-runner-05. Table bloat at 71GB.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Password policy update locked out 52 users from backup-server.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Health check for analytics-db failing. Endpoint returning 55 status.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "jsmith needs temporary admin access to worker-03 for maintenance window.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Intermittent connectivity drops on dev-lab segment. Affecting 96 users.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "DNS resolution failing for payment-api. nslookup returns SERVFAIL.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "AWS EC2 instance backup-server stuck in stopping state for 24 minutes.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Deadlock detected on backup-server. 89 transactions waiting.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Query planner on backup-server choosing sequential scan over index. 1x slower.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Firewall is blocking traffic from vpn-gateway to vault-server on port 443.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Alertmanager silences expired. Getting 12 duplicate alerts for queue-rabbitmq.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Cross-account IAM role for payment-api returning AssumeRole error.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Log aggregator not receiving logs from payment-api for 29 minutes.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Index bloat on cache-redis-01 table. Query performance degraded by 90x.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Role binding for logging-stack namespace too restrictive. tbrown cannot list pods.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "API token for prod-api-02 integration expired 54 days ago.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "MTU mismatch causing fragmentation between us-east-1 and worker-03.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Intermittent connectivity drops on vpn-gateway segment. Affecting 48 users.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Cron job on vault-server has not executed in 88 hours. Scheduler may be stuck.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Network latency spike detected on monitoring-01. Ping shows 19ms average.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Load balancer target group for prod-api-02 has 59 unhealthy targets.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Network latency spike detected on auth-service. Ping shows 73ms average.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Dead man's switch alert: queue-rabbitmq has not reported in for 15 minutes.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Load balancer target group for analytics-db has 42 unhealthy targets.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Kubernetes node worker-03 in NotReady state for 77 minutes.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Prometheus alert firing for high CPU on backup-server. Currently at 65%.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Docker build for prod-api-02 failing. rate limit exceeded.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Secrets injection for cache-redis-01 failed. Vault connection timed out.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "SSH key for lpatel rejected on vault-server. Key might have been rotated.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Password policy update locked out 26 users from queue-rabbitmq.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "NFS mount on cdn-edge-01 stale. Applications hanging on I/O.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "OAuth token refresh failing for staging-db-01. Users getting logged out.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "WiFi access point in ap-southeast-1 is not broadcasting SSID. Clients cannot connect.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "BGP peering session with upstream provider is flapping on router search-cluster.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "LDAP group auth-service is missing lpatel. Cannot access shared drives.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Config map update for backup-server not propagating. Pods still using old config.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Service account for prod-k8s expired. Deployments are failing.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Error rate for search-cluster exceeded 43% threshold. Alert triggered.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Query planner on staging-db-01 choosing sequential scan over index. 67x slower.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "LDAP group analytics-db is missing dmartin. Cannot access shared drives.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "DNS resolution failing for gateway-lb. nslookup returns SERVFAIL.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Uptime monitor reports analytics-db as down from 23 locations.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "User kwilliams cannot access the queue-rabbitmq repository. Getting 403 Forbidden.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Disk IOPS on prod-web-01 throttled. Hitting provisioned limit of 89 IOPS.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Auto-scaling policy for mail-service not triggering despite 85% CPU.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "LDAP group mail-service is missing lpatel. Cannot access shared drives.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Disk usage alert on ci-runner-05. Volume at 71% capacity.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "MTU mismatch causing fragmentation between vpn-gateway and auth-service.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "SAML SSO login loop for ci-runner-05. Assertion validation failing.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Pipeline for gateway-lb blocked by failing deploy gate.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Rolling update for prod-web-01 stuck. 98 pods in CrashLoopBackOff.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Hardware RAID on vault-server degraded. 46 disk(s) failed.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Service mesh proxy on payment-api consuming excessive memory: 53GB.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "SSL certificate on worker-03 expires in 41 days. Needs renewal.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Index bloat on queue-rabbitmq table. Query performance degraded by 63x.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "VLAN 61 misconfigured on switch. Hosts in eu-west-2 cannot reach prod-k8s.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "API token for prod-k8s integration expired 84 days ago.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Firewall is blocking traffic from vpn-gateway to cdn-edge-01 on port 8080.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Post-deployment smoke tests for gateway-lb failing on 15 endpoints.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Rolling update for vault-server stuck. 70 pods in CrashLoopBackOff.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Service account for cache-redis-01 expired. Deployments are failing.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "APM traces showing 55ms latency spike in logging-stack service.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Firewall is blocking traffic from office-network to ci-runner-05 on port 9090.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Alertmanager silences expired. Getting 61 duplicate alerts for mail-service.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Deadlock detected on monitoring-01. 62 transactions waiting.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Error rate for mail-service exceeded 87% threshold. Alert triggered.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Helm chart deployment to vault-server timed out after 1 minutes.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "MongoDB analytics-db shard imbalanced. Chunk migration lagging.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Container registry search-cluster running low on storage. 36GB remaining.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Log aggregator not receiving logs from gateway-lb for 66 minutes.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Log aggregator not receiving logs from prod-web-01 for 61 minutes.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Expired client certificate preventing slee from connecting to ci-runner-05.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "CI/CD pipeline failed at lint step. Error: rate limit exceeded.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Auto-scaling group for monitoring-01 not launching new instances. Capacity at limit.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Database migration on payment-api failed at step 34. Needs manual rollback.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "SAML SSO login loop for gateway-lb. Assertion validation failing.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Alert rule for queue-rabbitmq needs tuning. False positive rate at 23%.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Dead man's switch alert: cache-redis-01 has not reported in for 1 minutes.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "SSH key for tbrown rejected on prod-k8s. Key might have been rotated.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Metric collection agent on search-cluster crashed. No data since 75 minutes ago.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Connection string for payment-api has wrong credentials after rotation.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "APM traces showing 12ms latency spike in vault-server service.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Network latency spike detected on gateway-lb. Ping shows 70ms average.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Expired client certificate preventing mchen from connecting to backup-server.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Memory usage on mail-service steadily climbing. Currently at 85%.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Replication to prod-api-02 standby broken. WAL files accumulating.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Connection pool exhausted on ci-runner-05. Max connections (60) reached.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Deployment of vault-server failed health check. Readiness probe returning 92.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Cloud storage bucket backup-server returning 47 errors on upload.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Load balancer target group for analytics-db has 90 unhealthy targets.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "User lpatel cannot access the cache-redis-01 repository. Getting 403 Forbidden.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Spot instance payment-api terminated. Application needs failover.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "CI/CD pipeline failed at integration step. Error: no space left on device.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "New hire slee needs read access to the gateway-lb namespace.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Role binding for worker-03 namespace too restrictive. tbrown cannot list pods.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Disk IOPS on vault-server throttled. Hitting provisioned limit of 70 IOPS.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "MongoDB analytics-db shard imbalanced. Chunk migration lagging.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Docker build for mail-service failing. dependency conflict.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "tbrown cannot push to mail-service branch. Protected branch rules blocking.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "EBS volume on staging-db-01 detached unexpectedly. Data may be inconsistent.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "APM traces showing 87ms latency spike in monitoring-01 service.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Service account agarcia hitting rate limit on staging-db-01 API. Need quota increase.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "EBS volume on ci-runner-05 detached unexpectedly. Data may be inconsistent.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Disk usage alert on cache-redis-01. Volume at 46% capacity.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Switch in rack 93 is unresponsive. Multiple hosts in building-3 affected.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Slow query on prod-k8s taking 36 seconds. Blocking other transactions.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Rolling update for mail-service stuck. 42 pods in CrashLoopBackOff.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "OAuth token refresh failing for cache-redis-01. Users getting logged out.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Post-deployment smoke tests for worker-03 failing on 1 endpoints.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Canary deployment of cdn-edge-01 showing elevated error rate of 84%.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Error rate for worker-03 exceeded 61% threshold. Alert triggered.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Database migration on gateway-lb failed at step 87. Needs manual rollback.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Health check for search-cluster failing. Endpoint returning 72 status.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "ARP table overflow on router. Hosts in office-network losing connectivity intermittently.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Permission denied when lpatel tries to write to data-pipeline S3 bucket.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "AWS EC2 instance worker-03 stuck in stopping state for 64 minutes.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Auto-scaling group for backup-server not launching new instances. Capacity at limit.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Firewall is blocking traffic from eu-west-2 to prod-web-01 on port 3306.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Grafana dashboard for vault-server showing data gaps for last 91 hours.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "VM cache-redis-01 performance degraded due to noisy neighbor. CPU steal at 63%.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "MySQL on vault-server hit max_allowed_packet limit. Large insert failing.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Packet loss of 28% observed between office-network and search-cluster.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Slow query on queue-rabbitmq taking 62 seconds. Blocking other transactions.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Synthetic monitoring probe to search-cluster timing out from ap-southeast-1 region.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "jsmith needs temporary admin access to prod-k8s for maintenance window.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "MongoDB data-pipeline shard imbalanced. Chunk migration lagging.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Build artifact for cache-redis-01 not found in registry. Push may have failed.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Alertmanager silences expired. Getting 97 duplicate alerts for backup-server.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "OAuth token refresh failing for analytics-db. Users getting logged out.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Proxy server gateway-lb is not forwarding requests. HTTP 48 errors returned.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "dmartin cannot push to data-pipeline branch. Protected branch rules blocking.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "New hire jsmith needs read access to the worker-03 namespace.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Service account rjohnson hitting rate limit on queue-rabbitmq API. Need quota increase.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "SLO burn rate for cdn-edge-01 exceeding budget. 1% error budget remaining.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Hardware RAID on queue-rabbitmq degraded. 69 disk(s) failed.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Kubernetes node analytics-db in NotReady state for 81 minutes.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Load balancer vault-server is returning 502 errors for 63% of requests.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "MySQL on data-pipeline hit max_allowed_packet limit. Large insert failing.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Service mesh proxy on worker-03 consuming excessive memory: 60GB.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Memory usage on vault-server steadily climbing. Currently at 33%.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Hardware RAID on vault-server degraded. 60 disk(s) failed.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "lpatel locked out of cache-redis-01 after 37 failed login attempts.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Deployment of queue-rabbitmq failed health check. Readiness probe returning 63.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Helm chart deployment to gateway-lb timed out after 10 minutes.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Cross-account IAM role for data-pipeline returning AssumeRole error.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "PagerDuty incident triggered: staging-db-01 latency above 49ms threshold.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "agarcia locked out of backup-server after 42 failed login attempts.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Post-deployment smoke tests for auth-service failing on 84 endpoints.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Tablespace on payment-api at 58% capacity. Approaching storage limit.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Auto-scaling group for prod-k8s not launching new instances. Capacity at limit.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "PostgreSQL replica lag on vault-server is 73 seconds and growing.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Anomaly detected in backup-server request pattern. Traffic spike of 76x normal.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Health check for backup-server failing. Endpoint returning 94 status.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Image pull failed for payment-api. Registry returning 3 error.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "API token for search-cluster integration expired 12 days ago.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Replication to cache-redis-01 standby broken. WAL files accumulating.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Database backup for gateway-lb failed. Disk space insufficient.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Proxy server cache-redis-01 is not forwarding requests. HTTP 91 errors returned.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Deployment of staging-db-01 failed health check. Readiness probe returning 72.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Tablespace on search-cluster at 7% capacity. Approaching storage limit.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "VLAN 28 misconfigured on switch. Hosts in office-network cannot reach vault-server.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Anomaly detected in ci-runner-05 request pattern. Traffic spike of 71x normal.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "New hire kwilliams needs read access to the staging-db-01 namespace.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Release prod-api-02 rollback needed. New version causing out of memory.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "SLO burn rate for vault-server exceeding budget. 58% error budget remaining.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Load balancer target group for prod-k8s has 93 unhealthy targets.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Cross-account IAM role for gateway-lb returning AssumeRole error.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Packet loss of 22% observed between ap-southeast-1 and gateway-lb.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "SLO burn rate for prod-api-02 exceeding budget. 72% error budget remaining.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Helm chart deployment to search-cluster timed out after 91 minutes.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Database migration on monitoring-01 failed at step 88. Needs manual rollback.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Terraform state for auth-service corrupted. Cannot plan or apply changes.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Service account dmartin hitting rate limit on ci-runner-05 API. Need quota increase.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Migration script for logging-stack failed on step 79. Database in inconsistent state.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "NFS mount on logging-stack stale. Applications hanging on I/O.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Log aggregator not receiving logs from search-cluster for 46 minutes.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Log aggregator not receiving logs from logging-stack for 55 minutes.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Canary deployment of cache-redis-01 showing elevated error rate of 91%.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Terraform state for payment-api corrupted. Cannot plan or apply changes.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Replication to logging-stack standby broken. WAL files accumulating.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Release prod-api-02 rollback needed. New version causing checksum mismatch.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "DNS resolution failing for staging-db-01. nslookup returns SERVFAIL.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Permission denied when tbrown tries to write to mail-service S3 bucket.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Alertmanager silences expired. Getting 55 duplicate alerts for data-pipeline.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "DNS resolution failing for cdn-edge-01. nslookup returns SERVFAIL.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "SSH key for slee rejected on monitoring-01. Key might have been rotated.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Release worker-03 rollback needed. New version causing rate limit exceeded.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "WiFi access point in vpn-gateway is not broadcasting SSID. Clients cannot connect.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "New hire slee needs read access to the queue-rabbitmq namespace.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "AWS EC2 instance ci-runner-05 stuck in stopping state for 63 minutes.",
+    "category": "Infrastructure Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Intermittent connectivity drops on ap-southeast-1 segment. Affecting 32 users.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "PostgreSQL replica lag on vault-server is 25 seconds and growing.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Kubernetes node payment-api in NotReady state for 48 minutes.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "ARP table overflow on router. Hosts in dev-lab losing connectivity intermittently.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "APM traces showing 37ms latency spike in data-pipeline service.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "MFA reset needed for slee. Authenticator app lost after phone change.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Prometheus alert firing for high CPU on analytics-db. Currently at 49%.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "New hire slee needs read access to the data-pipeline namespace.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "rjohnson cannot push to staging-db-01 branch. Protected branch rules blocking.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "OAuth token refresh failing for staging-db-01. Users getting logged out.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Read timeout on search-cluster. Queries exceeding 64ms threshold.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "VM cache-redis-01 performance degraded due to noisy neighbor. CPU steal at 26%.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Migration script for backup-server failed on step 14. Database in inconsistent state.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Secrets injection for gateway-lb failed. Vault connection timed out.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Post-deployment smoke tests for auth-service failing on 79 endpoints.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Docker build for ci-runner-05 failing. connection refused.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Pipeline for prod-k8s blocked by failing push gate.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "WiFi access point in vpn-gateway is not broadcasting SSID. Clients cannot connect.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Docker build for gateway-lb failing. out of memory.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Secrets injection for logging-stack failed. Vault connection timed out.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Anomaly detected in worker-03 request pattern. Traffic spike of 67x normal.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Auto-scaling group for search-cluster not launching new instances. Capacity at limit.",
+    "category": "Infrastructure Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Autovacuum not running on backup-server. Table bloat at 67GB.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "WiFi access point in dev-lab is not broadcasting SSID. Clients cannot connect.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Error rate for worker-03 exceeded 70% threshold. Alert triggered.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Connection pool exhausted on cdn-edge-01. Max connections (27) reached.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Connection string for prod-api-02 has wrong credentials after rotation.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Build artifact for mail-service not found in registry. Push may have failed.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Build artifact for prod-api-02 not found in registry. Push may have failed.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Cloud storage bucket vault-server returning 79 errors on upload.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Load balancer vault-server is returning 502 errors for 59% of requests.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "VLAN 43 misconfigured on switch. Hosts in us-east-1 cannot reach payment-api.",
+    "category": "Network Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Anomaly detected in worker-03 request pattern. Traffic spike of 83x normal.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "VLAN 55 misconfigured on switch. Hosts in remote-site cannot reach worker-03.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "BGP peering session with upstream provider is flapping on router data-pipeline.",
+    "category": "Network Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Expired client certificate preventing jsmith from connecting to gateway-lb.",
+    "category": "Access / Permissions",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Service account slee hitting rate limit on backup-server API. Need quota increase.",
+    "category": "Access / Permissions",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Database migration on queue-rabbitmq failed at step 38. Needs manual rollback.",
+    "category": "Database Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Config map update for staging-db-01 not propagating. Pods still using old config.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Index bloat on ci-runner-05 table. Query performance degraded by 9x.",
+    "category": "Database Issue",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Disk usage alert on auth-service. Volume at 83% capacity.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Auto-scaling policy for monitoring-01 not triggering despite 34% CPU.",
+    "category": "Deployment Failure",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Alertmanager silences expired. Getting 46 duplicate alerts for analytics-db.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Memory usage on search-cluster steadily climbing. Currently at 96%.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Password policy update locked out 64 users from cdn-edge-01.",
+    "category": "Access / Permissions",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Blue-green deployment switch for worker-03 failed. DNS not updating.",
+    "category": "Deployment Failure",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "VPN tunnel to eu-west-2 dropped. Users cannot access internal resources.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Dead man's switch alert: mail-service has not reported in for 55 minutes.",
+    "category": "Monitoring / Alert",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Network interface on prod-k8s flapping every 8 minutes.",
+    "category": "Network Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Server worker-03 kernel panic. System unresponsive.",
+    "category": "Infrastructure Issue",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "PagerDuty incident triggered: cache-redis-01 latency above 50ms threshold.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "Config map update for worker-03 not propagating. Pods still using old config.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Rolling update for monitoring-01 stuck. 45 pods in CrashLoopBackOff.",
+    "category": "Deployment Failure",
+    "urgency": "Low"
+  },
+  {
+    "ticket_text": "Synthetic monitoring probe to vault-server timing out from remote-site region.",
+    "category": "Monitoring / Alert",
+    "urgency": "High"
+  },
+  {
+    "ticket_text": "APM traces showing 85ms latency spike in prod-api-02 service.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Tablespace on data-pipeline at 1% capacity. Approaching storage limit.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Synthetic monitoring probe to backup-server timing out from building-3 region.",
+    "category": "Monitoring / Alert",
+    "urgency": "Medium"
+  },
+  {
+    "ticket_text": "Autovacuum not running on prod-web-01. Table bloat at 75GB.",
+    "category": "Database Issue",
+    "urgency": "Medium"
+  }
+]
