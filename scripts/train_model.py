@@ -1,3 +1,8 @@
+# scripts/train_model.py
+# This script trains TF-IDF vectorizer and Logistic Regression models for category and urgency prediction.
+# It loads the synthetic ticket dataset, preprocesses the text, trains the models, evaluates their performance,
+# and saves the trained models to disk for later use in the FastAPI application. The script
+
 """Train TF-IDF + Logistic Regression models for category and urgency prediction."""
 
 import json
@@ -18,7 +23,8 @@ from app.services.preprocessing import clean_text
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "tickets.json")
 MODEL_DIR = os.path.join(os.path.dirname(__file__), "..", "models")
 
-
+# Note: In a real project, you would likely want to use a more robust training pipeline, possibly with hyperparameter tuning,
+# cross-validation, and better model management. This is a simplified example for demonstration purposes.
 def main():
     os.makedirs(MODEL_DIR, exist_ok=True)
 

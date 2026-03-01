@@ -8,3 +8,5 @@ vector_store/
 dist/
 build/
 .pytest_cache/
+.vscode/
+.claude/

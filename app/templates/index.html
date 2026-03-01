@@ -1,0 +1,78 @@
+<!-- app/templates/index.html -->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Ticket Triage - Demo UI</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; max-width: 900px; }
+    textarea { width: 100%; height: 140px; font-size: 14px; padding: 10px; }
+    button { padding: 10px 14px; font-size: 14px; cursor: pointer; }
+    .row { display: flex; gap: 16px; align-items: center; margin: 12px 0; }
+    .box { background: #f6f8fa; border: 1px solid #e5e7eb; border-radius: 8px; padding: 12px; }
+    pre { white-space: pre-wrap; word-wrap: break-word; }
+    .small { color: #666; font-size: 12px; }
+    .pill { display: inline-block; padding: 4px 8px; border-radius: 999px; background: #eef2ff; margin-left: 8px; font-size: 12px;}
+  </style>
+</head>
+<body>
+  <h1>AI Ticket Triage <span class="pill">Demo UI</span></h1>
+  <p class="small">
+    This UI calls <code>POST /predict</code>. No API key required (mock LLM).
+    Swagger: <a href="/docs" target="_blank">/docs</a>
+  </p>
+
+  <!-- The textarea below is pre-filled with a sample ticket text.
+    You can modify it or enter your own text to test the prediction. -->
+  <div class="box">
+    <label for="ticket"><b>Ticket text</b></label>
+    <textarea id="ticket">Production database is unreachable from all app servers</textarea>
+    <div class="row">
+      <button id="runBtn">Run Prediction</button>
+      <span id="status" class="small"></span>
+    </div>
+  </div>
+
+  <h3>Response</h3>
+  <div class="box">
+    <pre id="output">{}</pre>
+  </div>
+
+  <!-- The script below handles the click event on the "Run Prediction" button.
+    It sends the ticket text to the backend API, updates the status, and displays the response in the output box. -->
+  <script>
+    const runBtn = document.getElementById("runBtn");
+    const ticketEl = document.getElementById("ticket");
+    const outputEl = document.getElementById("output");
+    const statusEl = document.getElementById("status");
+
+    runBtn.addEventListener("click", async () => {
+      const ticket_text = ticketEl.value.trim();
+      if (!ticket_text) {
+        statusEl.textContent = "Please enter ticket text.";
+        return;
+      }
+
+      statusEl.textContent = "Running...";
+      outputEl.textContent = "{}";
+
+      try {
+        const res = await fetch("/predict", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ ticket_text })
+        });
+
+        const data = await res.json();
+        outputEl.textContent = JSON.stringify(data, null, 2);
+        statusEl.textContent = res.ok ? "Done ✅" : "Request failed ❌";
+      } catch (err) {
+        statusEl.textContent = "Error ❌";
+        outputEl.textContent = String(err);
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,3 +1,8 @@
+# app/routes.py
+# This file defines the API routes for the FastAPI application.
+# It includes a POST endpoint for ticket prediction, which takes in ticket text, processes it through classification,
+# retrieval, and response generation, and returns a structured response.
+
 import time
 import uuid
 import logging
@@ -12,16 +17,16 @@ logger = logging.getLogger("app.routes")
 
 router = APIRouter()
 
-
+# Request and response models
 class TicketRequest(BaseModel):
     ticket_text: str
 
-
+# Response models
 class RetrievedDoc(BaseModel):
     text: str
     source: str
 
-
+# The main response model for the /predict endpoint
 class TicketResponse(BaseModel):
     request_id: str
     category: str
@@ -30,7 +35,7 @@ class TicketResponse(BaseModel):
     final_response: str
     latency_ms: float
 
-
+# API endpoint for ticket prediction
 @router.post("/predict", response_model=TicketResponse)
 def predict_ticket(req: TicketRequest):
     request_id = str(uuid.uuid4())

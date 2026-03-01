@@ -1,10 +1,19 @@
-fastapi==0.115.6
-uvicorn==0.34.0
-pydantic==2.10.4
-scikit-learn==1.6.1
-joblib==1.4.2
-numpy==2.2.1
-pandas==2.2.3
-chromadb==1.5.2
-pytest==8.3.4
-httpx==0.28.1
+# requirements.txt
+
+# --- API Layer ---
+fastapi==0.115.6        # Web framework
+uvicorn==0.34.0         # ASGI server
+pydantic==2.10.4        # Data validation
+
+# --- ML Stack ---
+scikit-learn==1.6.1     # ML algorithms
+joblib==1.4.2           # Model serialization
+numpy==2.2.1            # Numerical ops
+pandas==2.2.3           # Data handling
+
+# --- RAG / Vector Store ---
+chromadb==1.5.2         # Vector database
+
+# --- Testing ---
+pytest==8.3.4           # Test framework
+httpx==0.28.1           # API testing client

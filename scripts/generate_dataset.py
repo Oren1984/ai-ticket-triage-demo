@@ -1,3 +1,7 @@
+# scripts/generate_dataset.py
+# This script generates a synthetic dataset of IT support tickets for training and testing the AI ticket triage system.
+# It defines various templates for different categories of issues, fills them with random values, and outputs a JSON
+
 """Generate synthetic IT ticket dataset."""
 
 import json
@@ -6,6 +10,7 @@ import random
 
 random.seed(42)
 
+# Define templates for different categories of tickets
 TEMPLATES = {
     "Network Issue": [
         "Unable to reach {target} from {source}. Connection times out after {n} seconds.",
@@ -160,7 +165,7 @@ PORTS = [80, 443, 8080, 5432, 3306, 6379, 22, 8443, 9090, 3000]
 
 URGENCY_WEIGHTS = {"Low": 0.3, "Medium": 0.4, "High": 0.3}
 
-
+# Function to fill a template with random values
 def fill_template(template: str) -> str:
     return template.format(
         target=random.choice(TARGETS),
@@ -172,7 +177,7 @@ def fill_template(template: str) -> str:
         port=random.choice(PORTS),
     )
 
-
+# Function to generate a list of synthetic tickets
 def generate_tickets(total: int = 1002) -> list[dict]:
     categories = list(TEMPLATES.keys())
     per_category = total // len(categories)
@@ -195,7 +200,7 @@ def generate_tickets(total: int = 1002) -> list[dict]:
     random.shuffle(tickets)
     return tickets
 
-
+# Main function to generate the dataset and save to JSON file
 def main():
     output_dir = os.path.join(os.path.dirname(__file__), "..", "data")
     os.makedirs(output_dir, exist_ok=True)

@@ -1,16 +1,22 @@
+# app/rag/ingest.py
+# This file defines a script to ingest markdown runbooks into a Chroma vector store.
+# It reads .md files from a specified knowledge directory, chunks the content into overlapping pieces,
+# and stores the chunks in a Chroma collection with metadata about the source file. The script uses a mock embedding function for testing purposes.
+
 """Ingest markdown runbooks into Chroma vector store."""
 
 import os
 import chromadb
 from app.rag.embeddings import MockEmbeddingFunction
 
+# Configuration constants
 KNOWLEDGE_DIR = os.path.join(os.path.dirname(__file__), "..", "..", "knowledge_base")
 VECTOR_STORE_DIR = os.path.join(os.path.dirname(__file__), "..", "..", "vector_store")
 CHUNK_SIZE = 600
 CHUNK_OVERLAP = 100
 COLLECTION_NAME = "runbooks"
 
-
+# Function to chunk text into overlapping pieces
 def chunk_text(text: str, chunk_size: int = CHUNK_SIZE, overlap: int = CHUNK_OVERLAP) -> list[str]:
     """Split text into overlapping chunks."""
     chunks = []
@@ -21,7 +27,7 @@ def chunk_text(text: str, chunk_size: int = CHUNK_SIZE, overlap: int = CHUNK_OVE
         start = end - overlap
     return chunks
 
-
+# Main ingestion function
 def ingest(knowledge_dir: str = KNOWLEDGE_DIR, vector_store_dir: str = VECTOR_STORE_DIR):
     """Read all .md files, chunk them, and store in Chroma."""
     client = chromadb.PersistentClient(path=vector_store_dir)
@@ -36,7 +42,8 @@ def ingest(knowledge_dir: str = KNOWLEDGE_DIR, vector_store_dir: str = VECTOR_ST
         name=COLLECTION_NAME,
         embedding_function=MockEmbeddingFunction(),
     )
-
+    
+    # Ingest documents
     doc_id = 0
     total_chunks = 0
     for filename in sorted(os.listdir(knowledge_dir)):

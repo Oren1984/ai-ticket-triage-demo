@@ -1,3 +1,5 @@
+# docker-compose.yml
+
 services:
   api:
     build: .
@@ -7,5 +9,3 @@ services:
       - .env
     environment:
       - LOG_LEVEL=info
-    volumes:
-      - ./vector_store:/app/vector_store

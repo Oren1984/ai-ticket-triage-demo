@@ -1,3 +1,8 @@
+# tests/test_rag.py
+# This test file contains unit tests for the RAG (Retrieval-Augmented Generation) components of the FastAPI application.
+# It uses pytest to define test cases that check the output of the chunk_text function,
+# ensuring that it correctly chunks input text based on the specified chunk size and overlap.
+
 import os
 import pytest
 from app.rag.ingest import chunk_text

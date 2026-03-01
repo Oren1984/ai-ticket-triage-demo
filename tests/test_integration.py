@@ -1,3 +1,8 @@
+# tests/test_integration.py
+# This test file contains integration tests for the FastAPI application.
+# It uses pytest and FastAPI's TestClient to test the /predict endpoint and the /health endpoint.
+# The tests check that the /predict endpoint returns the expected keys and valid values,
+
 import os
 import pytest
 from fastapi.testclient import TestClient
