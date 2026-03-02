@@ -4,9 +4,10 @@
 
 Test:
 
-- Text cleaning function
-- Model prediction
+- Model loading
+- Prediction output
 - RAG retrieval
+- Text preprocessing
 
 Use pytest.
 
@@ -16,8 +17,8 @@ Full flow:
 
 Ticket → Classification → RAG → Response
 
-## 3. Coverage Goal
+## 3. Current Status
 
-Basic coverage for core logic.
-
-Not aiming for 100%.
+- 19 tests passing
+- Docker validated
+- Endpoints verified

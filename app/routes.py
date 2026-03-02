@@ -43,7 +43,8 @@ class TriageTimings(BaseModel):
     classify: float
     total: float
 
-
+# Note: we keep the same response schema as /predict for backward compatibility,
+# but may add an optional 'timings_ms' field for more detailed latency breakdowns in the future.
 class TriageResponse(BaseModel):
     request_id: str
     category: str
@@ -53,7 +54,8 @@ class TriageResponse(BaseModel):
     latency_ms: float
     timings_ms: Optional[TriageTimings] = None
 
-
+# Note: this is the main endpoint for the triage pipeline,
+# using the new Kaggle-trained classifier and RAG retriever.
 @router.post("/triage", response_model=TriageResponse)
 def triage_ticket(req: TicketRequest):
     result = run_triage(req.ticket_text)
@@ -81,7 +83,7 @@ class ClassifyResponse(BaseModel):
     confidence: float
     timings_ms: float
 
-
+# Note: this endpoint is primarily for debugging the ML classifier in isolation.
 @router.post("/classify", response_model=ClassifyResponse)
 def classify_ticket(req: TicketRequest):
     result = ml_clf.classify(req.ticket_text)
@@ -104,7 +106,7 @@ class TicketResponse(BaseModel):
     final_response: str
     latency_ms: float
 
-
+# Note: this endpoint uses the legacy Kaggle-trained classifier and response schema.
 @router.post("/predict", response_model=TicketResponse)
 def predict_ticket(req: TicketRequest):
     request_id = str(uuid.uuid4())

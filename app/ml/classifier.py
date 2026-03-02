@@ -15,7 +15,7 @@ _vectorizer = None
 _classifier = None
 _label_encoder = None
 
-
+# Lazy load the model artifacts on first call to classify() or labels().
 def _load() -> None:
     global _vectorizer, _classifier, _label_encoder
     if _vectorizer is None:
@@ -23,7 +23,7 @@ def _load() -> None:
         _classifier = joblib.load(os.path.join(_MODEL_DIR, "classifier.pkl"))
         _label_encoder = joblib.load(os.path.join(_MODEL_DIR, "label_encoder.pkl"))
 
-
+# Main entry point for triage_service.
 def classify(text: str) -> dict:
     """Return label and confidence for *text*.
 
@@ -44,7 +44,7 @@ def classify(text: str) -> dict:
     elapsed = round((time.perf_counter() - t0) * 1000, 2)
     return {"label": label, "confidence": round(float(proba), 4), "timings_ms": elapsed}
 
-
+# Helper function for triage_service to get all known class labels.
 def labels() -> list[str]:
     """Return all known class labels."""
     _load()

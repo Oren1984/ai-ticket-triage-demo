@@ -13,7 +13,7 @@ _classifier = None
 _vectorizer = None
 _label_encoder = None
 
-
+# Lazy load the model artifacts on first call to classify() or labels().
 def _load_models():
     global _classifier, _vectorizer, _label_encoder
     if _vectorizer is None:
@@ -21,7 +21,7 @@ def _load_models():
         _classifier = joblib.load(os.path.join(_MODEL_DIR, "classifier.pkl"))
         _label_encoder = joblib.load(os.path.join(_MODEL_DIR, "label_encoder.pkl"))
 
-
+# Main entry point for triage_service.
 def predict(ticket_text: str) -> dict:
     """Return predicted category and urgency for a ticket.
 

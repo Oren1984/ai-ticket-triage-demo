@@ -2,7 +2,7 @@
 
 ## 1. Knowledge Base
 
-20–30 IT Runbook documents in Markdown format.
+Markdown IT Runbooks stored locally.
 
 Examples:
 - restart_service.md
@@ -17,13 +17,15 @@ Examples:
 
 ## 3. Embeddings
 
-Use external LLM API for embeddings.
+Local embeddings (no external API).
+
+No LLM dependency.
 
 ## 4. Vector Store
 
-Use Chroma (local, simple).
+Chroma (local persistence).
 
-Store in:
+Stored under:
 
 /vector_store/
 
@@ -31,6 +33,6 @@ Store in:
 
 Top-K = 3
 
-Return:
+Returns:
 - Retrieved text
 - Source file

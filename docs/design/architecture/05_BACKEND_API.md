@@ -4,9 +4,9 @@
 
 FastAPI
 
-## 2. Endpoints
+## 2. Main Endpoint
 
-POST /predict
+POST /triage
 
 Request:
 {
@@ -16,23 +16,27 @@ Request:
 Response:
 {
   "category": "...",
-  "urgency": "...",
+  "urgency": "Medium",
   "retrieved_docs": [...],
   "final_response": "...",
   "latency_ms": ...
 }
 
-## 3. Logging Requirements
+## 3. Additional Endpoints
+
+POST /classify  → ML only  
+GET /health     → Health check  
+
+## 4. Logging Requirements
 
 - Structured JSON logs
 - Unique Request ID
 - Latency measurement
 
-## 4. Project Structure
+## 5. Project Structure
 
 app/
   main.py
-  routes.py
   services/
-  models/
+  ml/
   rag/

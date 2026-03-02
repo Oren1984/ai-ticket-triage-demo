@@ -9,7 +9,7 @@ from app.ml import classifier as ml_clf
 from app.rag.retriever import retrieve
 from app.services.llm import generate_response
 
-
+# Main entry point for triage.
 def triage(ticket_text: str) -> dict:
     """Run the full triage pipeline and return a structured result dict.
 
