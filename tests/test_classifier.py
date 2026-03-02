@@ -1,35 +1,37 @@
 # tests/test_classifier.py
-# This test file contains unit tests for the classifier service in the FastAPI application.
-# It uses pytest to define test cases that check the output of the predict function, 
-# ensuring that it returns the expected keys and valid category and urgency values.
-# The tests are skipped if the models have
+# Unit tests for the classifier service (app/services/classifier.predict).
+# Validates that the Kaggle-trained model loads and returns the expected schema.
+#
+# NOTE: The synthetic-dataset version of this file (which hardcoded IT-ops category
+# names like "Network Issue", "Deployment Failure", etc.) has been archived to
+# docs/archive/test_classifier_synthetic.py because the model is now trained on
+# the Kaggle dataset (Topic_group labels: Hardware, Access, HR Support, …).
 
 import os
 import pytest
+from app.ml.classifier import labels as known_labels
 from app.services.classifier import predict
 
-MODELS_EXIST = os.path.exists(
-    os.path.join(os.path.dirname(__file__), "..", "models", "vectorizer.pkl")
+MODELS_EXIST = all(
+    os.path.exists(os.path.join(os.path.dirname(__file__), "..", "models", f))
+    for f in ("vectorizer.pkl", "classifier.pkl", "label_encoder.pkl")
 )
 
-# The following tests will be skipped if the models have not been trained yet
+
 @pytest.mark.skipif(not MODELS_EXIST, reason="Models not trained yet")
 def test_predict_returns_required_keys():
     result = predict("Cannot connect to VPN from remote office")
     assert "category" in result
     assert "urgency" in result
 
-# The following tests check that the predicted category and urgency are valid values based on the training data.
+
 @pytest.mark.skipif(not MODELS_EXIST, reason="Models not trained yet")
 def test_predict_category_is_valid():
-    valid_categories = [
-        "Network Issue", "Access / Permissions", "Deployment Failure",
-        "Monitoring / Alert", "Database Issue", "Infrastructure Issue",
-    ]
+    """Category must be one of the Kaggle Topic_group labels."""
     result = predict("Database replica is lagging behind primary")
-    assert result["category"] in valid_categories
+    assert result["category"] in known_labels()
 
-# The following test checks that the predicted urgency is one of the expected values: Low, Medium, or High.
+
 @pytest.mark.skipif(not MODELS_EXIST, reason="Models not trained yet")
 def test_predict_urgency_is_valid():
     result = predict("Production server is down")

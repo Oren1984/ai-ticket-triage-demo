@@ -1,0 +1,36 @@
+=== Dataset split statistics ===
+Total samples : 47837
+Train         : 38269
+Val           : 4784
+Test          : 4784
+
+--- TRAIN class distribution ---
+  Hardware                       10893
+  HR Support                     8732
+  Access                         5700
+  Miscellaneous                  5648
+  Storage                        2222
+  Purchase                       1971
+  Internal Project               1695
+  Administrative rights          1408
+
+--- VAL class distribution ---
+  Hardware                       1362
+  HR Support                     1092
+  Access                         712
+  Miscellaneous                  706
+  Storage                        278
+  Purchase                       246
+  Internal Project               212
+  Administrative rights          176
+
+--- TEST class distribution ---
+  Hardware                       1362
+  HR Support                     1091
+  Access                         713
+  Miscellaneous                  706
+  Storage                        277
+  Purchase                       247
+  Internal Project               212
+  Administrative rights          176
+

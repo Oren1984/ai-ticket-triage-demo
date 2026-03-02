@@ -6,6 +6,7 @@ uvicorn==0.34.0         # ASGI server
 pydantic==2.10.4        # Data validation
 
 # --- ML Stack ---
+nltk>=3.8               # EDA augmentation (WordNet)
 scikit-learn==1.6.1     # ML algorithms
 joblib==1.4.2           # Model serialization
 numpy==2.2.1            # Numerical ops

@@ -1,7 +1,7 @@
 # app/services/classifier.py
-# This file defines a function to predict the category and urgency of a ticket using pre-trained machine learning models.
-# It loads the models and vectorizer from disk, preprocesses the input text, and returns the predictions in a structured format.
-# The classifier is used in the ticket triage process to assist in routing and prioritization.
+# Thin wrapper kept for backward compatibility with /predict endpoint.
+# Uses the Kaggle-trained artifacts (vectorizer.pkl + classifier.pkl + label_encoder.pkl).
+# Returns {"category": <Topic_group>, "urgency": "Medium"} to preserve existing schema.
 
 import os
 import joblib
@@ -9,24 +9,28 @@ from app.services.preprocessing import clean_text
 
 _MODEL_DIR = os.path.join(os.path.dirname(__file__), "..", "..", "models")
 
-_category_model = None
-_urgency_model = None
+_classifier = None
 _vectorizer = None
+_label_encoder = None
 
-# Helper function to load models and vectorizer
+
 def _load_models():
-    global _category_model, _urgency_model, _vectorizer
+    global _classifier, _vectorizer, _label_encoder
     if _vectorizer is None:
         _vectorizer = joblib.load(os.path.join(_MODEL_DIR, "vectorizer.pkl"))
-        _category_model = joblib.load(os.path.join(_MODEL_DIR, "category_model.pkl"))
-        _urgency_model = joblib.load(os.path.join(_MODEL_DIR, "urgency_model.pkl"))
+        _classifier = joblib.load(os.path.join(_MODEL_DIR, "classifier.pkl"))
+        _label_encoder = joblib.load(os.path.join(_MODEL_DIR, "label_encoder.pkl"))
 
-# Main prediction function
+
 def predict(ticket_text: str) -> dict:
-    """Return predicted category and urgency for a ticket."""
+    """Return predicted category and urgency for a ticket.
+
+    'category' is the Kaggle Topic_group label.
+    'urgency'  is always 'Medium' (dataset has no urgency signal).
+    """
     _load_models()
     cleaned = clean_text(ticket_text)
     features = _vectorizer.transform([cleaned])
-    category = _category_model.predict(features)[0]
-    urgency = _urgency_model.predict(features)[0]
-    return {"category": category, "urgency": urgency}
+    idx = _classifier.predict(features)[0]
+    category = _label_encoder.inverse_transform([idx])[0]
+    return {"category": category, "urgency": "Medium"}

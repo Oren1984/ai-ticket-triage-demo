@@ -1,6 +1,6 @@
 # Dockerfile
 
-# # Base Python image
+# Base Python image
 FROM python:3.11-slim
 
 # Set working directory
@@ -10,11 +10,16 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Download NLTK data needed for EDA augmentation
+RUN python -c "import nltk; nltk.download('wordnet'); nltk.download('omw-1.4')"
+
 # Copy project files
 COPY . .
 
-# Train model and ingest knowledge base during build time
-RUN python scripts/train_model.py
+# Run the full training pipeline at build time
+RUN python scripts/split_data.py
+RUN python scripts/augment_data.py
+RUN python scripts/train_kaggle_model.py
 RUN python scripts/ingest_knowledge.py
 
 # Expose API port

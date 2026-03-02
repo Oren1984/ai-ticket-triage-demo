@@ -1,0 +1,15 @@
+=== Val Classification Report ===
+                       precision    recall  f1-score   support
+
+               Access       0.90      0.90      0.90       712
+Administrative rights       0.66      0.88      0.75       176
+           HR Support       0.90      0.86      0.88      1092
+             Hardware       0.87      0.81      0.84      1362
+     Internal Project       0.82      0.93      0.87       212
+        Miscellaneous       0.80      0.86      0.83       706
+             Purchase       0.94      0.87      0.91       246
+              Storage       0.85      0.92      0.88       278
+
+             accuracy                           0.86      4784
+            macro avg       0.84      0.88      0.86      4784
+         weighted avg       0.86      0.86      0.86      4784
